@@ -15,10 +15,12 @@ public class RandomModeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         ActivityRandomModeBinding binding = ActivityRandomModeBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-
+        RandomModeLogic logic = new RandomModeLogic(binding);
+        logic.setup();
         binding.backBtn.setOnClickListener(view -> {
             Intent MainActivitySwitcher = new Intent(this, MainActivity.class);
             startActivity(MainActivitySwitcher);
         });
+
     }
 }

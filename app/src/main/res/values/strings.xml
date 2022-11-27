@@ -4,4 +4,5 @@
     <string name="random_button">Random</string>
     <string name="in_order">In order</string>
     <string name="back">Back</string>
+    <string name="next_btn">Next</string>
 </resources>
