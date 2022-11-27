@@ -17,6 +17,9 @@ public class InOrderActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         ActivityInOrderBinding binding = ActivityInOrderBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-
+        binding.BckBtn.setOnClickListener(view -> {
+            Intent MainActivitySwitcher = new Intent(this, MainActivity.class);
+            startActivity(MainActivitySwitcher);
+        });
     }
 }
