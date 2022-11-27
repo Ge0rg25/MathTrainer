@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MathTrainer</string>
+    <string name="main_menu_title">Главное Меню</string>
+    <string name="random_button">Random</string>
+    <string name="in_order">In order</string>
+    <string name="back">Back</string>
+</resources>
