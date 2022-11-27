@@ -19,7 +19,7 @@
         app:layout_constraintVertical_bias="0.841" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/train2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toTopOf="@+id/back_btn"
@@ -30,47 +30,47 @@
         app:layout_constraintVertical_bias="0.145" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/train3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toTopOf="@+id/back_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button1"
+        app:layout_constraintTop_toBottomOf="@+id/train2"
         app:layout_constraintVertical_bias="0.073" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/train4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toTopOf="@+id/back_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/train3"
         app:layout_constraintVertical_bias="0.081" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/train5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toTopOf="@+id/back_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/train4"
         app:layout_constraintVertical_bias="0.105" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/train6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toTopOf="@+id/back_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button4"
+        app:layout_constraintTop_toBottomOf="@+id/train5"
         app:layout_constraintVertical_bias="0.105" />
 
     <Button
@@ -82,6 +82,6 @@
         app:layout_constraintBottom_toTopOf="@+id/back_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button5"
+        app:layout_constraintTop_toBottomOf="@+id/train6"
         app:layout_constraintVertical_bias="0.67" />
 </androidx.constraintlayout.widget.ConstraintLayout>
